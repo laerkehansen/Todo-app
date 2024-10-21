@@ -1,34 +1,56 @@
 "use strict";
 
-let Checked = [];
-let notFinished = [];
+let todos = [];
+let done = [];
 
 //henter alle mine elementer//
 const button = document.querySelector("button");
 const input = document.querySelector("input");
 const container = document.getElementById("list-container");
-
-const ul = document.createElement("ul"); //laver en ul//
-container.appendChild(ul); //sætter min ul ind i min container/appender til containeren//
+const doneContainer = document.getElementById("done-container");
 
 button.addEventListener("click", () => {
   //tilføjer eventlistener til min button//
-  const itemText = input.value; //får værdien af inputfeltet//
+  const itemText = input.value.trim(); //får værdien af inputfeltet//
 
-  // if (itemText.trim() !== " " ){ //tjekker om value er tom//
-  if (itemText === "") {
-    // Tjekker om inputfeltet er tomt
-    // errorMessage.style.color = "red"; // Gør "Add task"-teksten rød
-  } else {
+  if (itemText.trim() !== "") {
+    const task = todos.push(itemText);
+    console.log("todos: ", todos);
     const li = document.createElement("li"); //skaber nyt li element//
     const textNode = document.createTextNode(itemText); //skaber textNode//
     li.appendChild(textNode); //appender textNode til li elementet//
-    ul.appendChild(li); //appender det nye li element til listen (ul)//
+    container.appendChild(li); //appender det nye li element til listen (ul)//
     input.value = ""; //sørger for at input feltet bliver tomt//
   }
 });
 
-function toggleChecked() {
-  var li = document.querySelector("li");
-  li.classList.toggle("checked");
-}
+container.addEventListener("click", (e) => {
+  let task = e.target.innerText;
+  done.push(task);
+  todos = todos.filter(function (todo) {
+    return todo !== task;
+  });
+  console.log("Done: ", done);
+  console.log("Todos: ", todos);
+
+  const li = document.createElement("li");
+  const textNode = document.createTextNode(task);
+  li.appendChild(textNode);
+  doneContainer.appendChild(li);
+  container.removeChild(e.target);
+});
+
+doneContainer.addEventListener("click", (e) => {
+  let task = e.target.innerText;
+  todos.push(task);
+  done = done.filter(function (todo) {
+    return todo !== task;
+  });
+  console.log("Done 3: ", done);
+  console.log("Todos 3: ", todos);
+  const li = document.createElement("li");
+  const textNode = document.createTextNode(task);
+  li.appendChild(textNode);
+  container.appendChild(li);
+  doneContainer.removeChild(e.target);
+});
