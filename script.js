@@ -1,6 +1,7 @@
 "use strict";
 
-let myArray = [];
+let Checked = [];
+let notFinished = [];
 
 
 //henter alle mine elementer//

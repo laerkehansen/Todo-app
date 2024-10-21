@@ -12,6 +12,8 @@ h2 {
   background: linear-gradient(0deg, #009dff 0%, #1021a2 100%);
   width: 100%;
   min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .todo-app {
   width: 100%;
@@ -20,8 +22,24 @@ h2 {
   padding: 1rem 10px 1rem 1rem;
   margin: auto;
   border-radius: 15px;
-  display: grid;
   justify-content: start;
+  min-height: 300px;
+
+  ul {
+    padding: 10px 30px 10px;
+    position: relative;
+  }
+}
+
+.done {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 1rem 10px 1rem 1rem;
+  margin: auto;
+  border-radius: 15px;
+  justify-content: start;
+  min-height: 300px;
 
   ul {
     padding: 10px 30px 10px;
