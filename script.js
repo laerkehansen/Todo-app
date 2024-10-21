@@ -2,7 +2,7 @@
 
 let todos = [];
 let done = [];
-
+//jj
 //henter alle mine elementer//
 const button = document.querySelector("button");
 const input = document.querySelector("input");
