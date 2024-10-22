@@ -25,6 +25,7 @@ button.addEventListener("click", () => {
 });
 
 container.addEventListener("click", (e) => {
+  console.log(e);
   let task = e.target.innerText;
   done.push(task);
   todos = todos.filter(function (todo) {
