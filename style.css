@@ -88,45 +88,71 @@ svg {
 }
 
 ul li {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
   font-size: larger;
   padding: 5px 30px;
   list-style: none;
   /* position: absolute; */
 }
 
+li {
+  /* grid-template-columns: auto 1fr; */
+  /* display: grid; */
+  grid-row: 1;
+  gap: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+  grid-column: -1;
+}
+
 li:hover {
   background-color: lightblue;
-  padding: 5px 5px 5px;
+  /* padding: 5px 5px 5px;
   border-radius: 10px;
-  min-width: 20px;
+  min-width: 20px; */
 }
 .checked {
   text-decoration: line-through;
 }
 
-.checked::before {
+/* .checked::before {
+  background: var(--chek-fill) 50% 50% / contain no-repeat;
   content: "";
   width: 30px;
   height: 30px;
-  left: -5px;
-  display: block;
-  position: absolute;
-  /* border-radius: 50px;
-  background-color: blue;
-  border: solid 2px blue; */
-  z-index: 99;
-  background: var(--chek-fill) 50% 50% / contain no-repeat;
-}
+  grid-column: auto;
+} */
 
+/* span med trash */
+/* span {
+  grid-column: 2;
+  content: "";
+  height: 30px;
+  width: 30px;
+  background: var(--trash) 50% 50% / contain no-repeat;
+} */
+
+/* chek ik udfyldt */
 li::before {
+  /* display: none; */
   background: var(--chek) 50% 50% / contain no-repeat;
   content: "";
   width: 30px;
   height: 30px;
-  left: -5px;
-  display: block;
-  position: absolute;
-  /* border-radius: 50px; */
-  /* background-color: white;
-  border: solid 2px black; */
+  grid-column: 1;
+  grid-row: 1;
+}
+li.doneLi::before {
+  background: var(--chek-fill) 50% 50% / contain no-repeat;
+}
+/* chek udfylt */
+li::after {
+  /* display: none; */
+  background: var(--trash) 50% 50% / contain no-repeat;
+  content: "";
+  width: 30px;
+  height: 30px;
+  grid-column: 2;
+  grid-row: 1;
 }

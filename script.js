@@ -36,6 +36,9 @@ container.addEventListener("click", (e) => {
   const li = document.createElement("li");
   const textNode = document.createTextNode(task);
   li.appendChild(textNode);
+
+  // Tilføj CSS-klasse "done" for at ændre ::before baggrund
+  li.classList.add("doneLi");
   doneContainer.appendChild(li);
   container.removeChild(e.target);
 });
