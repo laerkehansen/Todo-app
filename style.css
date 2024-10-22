@@ -95,7 +95,7 @@ ul li {
   display: grid;
   grid-template-columns: auto auto 1fr;
   font-size: larger;
-  padding: 5px 30px;
+  /* padding: 5px 30px; */
   list-style: none;
   /* position: absolute; */
 }
@@ -105,7 +105,7 @@ li {
   /* display: grid; */
   grid-row: 1;
   gap: 1rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
   align-items: center;
   grid-column: -1;
 }
