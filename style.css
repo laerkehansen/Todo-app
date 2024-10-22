@@ -26,7 +26,7 @@ h2 {
   min-height: 300px;
 
   ul {
-    padding: 10px 30px 10px;
+    padding-top: 10px;
     position: relative;
   }
 }
@@ -42,7 +42,7 @@ h2 {
   min-height: 300px;
 
   ul {
-    padding: 10px 30px 10px;
+    padding-top: 10px;
     position: relative;
   }
 }
@@ -84,14 +84,22 @@ svg {
 ul li {
   font-size: larger;
   padding-top: 5px;
+  padding-bottom: 5px;
   list-style: none;
   /* position: absolute; */
+}
+
+li:hover {
+  background-color: lightblue;
+  padding: 5px 5px 5px;
+  border-radius: 10px;
+  min-width: 20px;
 }
 .checked {
   text-decoration: line-through;
 }
 
-.checked::before {
+/* .checked::before {
   content: "";
   width: 20px;
   height: 20px;
@@ -114,4 +122,4 @@ li::before {
   border-radius: 50px;
   background-color: white;
   border: solid 2px black;
-}
+} */
