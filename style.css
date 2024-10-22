@@ -108,6 +108,7 @@ li {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   align-items: center;
   grid-column: -1;
+  display: inline;
 }
 
 li:hover {
@@ -159,4 +160,12 @@ li::after {
   height: 30px;
   grid-column: 2;
   grid-row: 1;
+}
+
+span {
+  position: absolute;
+  left: 50px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
 }
