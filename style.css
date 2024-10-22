@@ -89,8 +89,7 @@ svg {
 
 ul li {
   font-size: larger;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 30px;
   list-style: none;
   /* position: absolute; */
 }
