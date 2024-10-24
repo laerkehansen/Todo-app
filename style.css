@@ -2,6 +2,18 @@
   --chek: url("data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M14%2021.414L9%2016.413L10.413%2015L14%2018.586L21.585%2011L23%2012.415L14%2021.414Z%22%20fill%3D%22black%22%2F%3E%3Cpath%20d%3D%22M16%202C13.2311%202%2010.5243%202.82109%208.22202%204.35943C5.91973%205.89777%204.12532%208.08427%203.06569%2010.6424C2.00607%2013.2006%201.72882%2016.0155%202.26901%2018.7313C2.80921%2021.447%204.14258%2023.9416%206.10051%2025.8995C8.05845%2027.8574%2010.553%2029.1908%2013.2687%2029.731C15.9845%2030.2712%2018.7994%2029.9939%2021.3576%2028.9343C23.9157%2027.8747%2026.1022%2026.0803%2027.6406%2023.778C29.1789%2021.4757%2030%2018.7689%2030%2016C30%2012.287%2028.525%208.72601%2025.8995%206.1005C23.274%203.475%2019.713%202%2016%202ZM16%2028C13.6266%2028%2011.3066%2027.2962%209.33316%2025.9776C7.35977%2024.6591%205.8217%2022.7849%204.91345%2020.5922C4.0052%2018.3995%203.76756%2015.9867%204.23058%2013.6589C4.69361%2011.3311%205.83649%209.19295%207.51472%207.51472C9.19295%205.83649%2011.3312%204.6936%2013.6589%204.23058C15.9867%203.76755%2018.3995%204.00519%2020.5922%204.91345C22.7849%205.8217%2024.6591%207.35977%2025.9776%209.33316C27.2962%2011.3065%2028%2013.6266%2028%2016C28%2019.1826%2026.7357%2022.2348%2024.4853%2024.4853C22.2349%2026.7357%2019.1826%2028%2016%2028Z%22%20fill%3D%22black%22%2F%3E%3C%2Fsvg%3E");
   --trash: url("data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M28%206H6L8%2030H24L26%206H4M16%2012V24M21%2012L20%2024M11%2012L12%2024M12%206L13%202H19L20%206%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E");
   --chek-fill: url("data:image/svg+xml,%3Csvg%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M14%200C11.2311%200%208.52431%200.821086%206.22202%202.35943C3.91973%203.89777%202.12532%206.08427%201.06569%208.64243C0.00606596%2011.2006%20-0.271181%2014.0155%200.269012%2016.7313C0.809205%2019.447%202.14258%2021.9416%204.10051%2023.8995C6.05845%2025.8574%208.55301%2027.1908%2011.2687%2027.731C13.9845%2028.2712%2016.7994%2027.9939%2019.3576%2026.9343C21.9157%2025.8747%2024.1022%2024.0803%2025.6406%2021.778C27.1789%2019.4757%2028%2016.7689%2028%2014C28%2010.287%2026.525%206.72601%2023.8995%204.1005C21.274%201.475%2017.713%200%2014%200ZM12%2019.59L7.00001%2014.59L8.59001%2013L12%2016.41L19.41%209L21.006%2010.586L12%2019.59Z%22%20fill%3D%22black%22%2F%3E%3C%2Fsvg%3E");
+  --chek-blue: url("data:image/svg+xml,%3Csvg%20width%3D%2235%22%20height%3D%2235%22%20viewBox%3D%220%200%2035%2035%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20cx%3D%2217.5%22%20cy%3D%2217.5%22%20r%3D%2217.5%22%20fill%3D%22%235B98F5%22%2F%3E%3Cpath%20d%3D%22M25.3221%2012.306C25.4192%2012.4028%2025.4961%2012.5177%2025.5486%2012.6443C25.6011%2012.7708%2025.6282%2012.9065%2025.6282%2013.0435C25.6282%2013.1805%2025.6011%2013.3162%2025.5486%2013.4428C25.4961%2013.5693%2025.4192%2013.6843%2025.3221%2013.781L15.9471%2023.156C15.8504%2023.253%2015.7354%2023.33%2015.6089%2023.3825C15.4823%2023.435%2015.3467%2023.4621%2015.2096%2023.4621C15.0726%2023.4621%2014.937%2023.435%2014.8104%2023.3825C14.6839%2023.33%2014.5689%2023.253%2014.4721%2023.156L10.3055%2018.9894C10.1099%2018.7938%2010%2018.5285%2010%2018.2519C10%2017.9752%2010.1099%2017.71%2010.3055%2017.5144C10.5011%2017.3188%2010.7664%2017.2089%2011.043%2017.2089C11.3196%2017.2089%2011.5849%2017.3188%2011.7805%2017.5144L15.2096%2020.9456L23.8471%2012.306C23.9439%2012.209%2024.0589%2012.1321%2024.1854%2012.0795C24.312%2012.027%2024.4476%2012%2024.5846%2012C24.7217%2012%2024.8573%2012.027%2024.9839%2012.0795C25.1104%2012.1321%2025.2254%2012.209%2025.3221%2012.306Z%22%20fill%3D%22black%22%2F%3E%3C%2Fsvg%3E");
+  --chek-pink: url("data:image/svg+xml,%3Csvg%20width%3D%2235%22%20height%3D%2235%22%20viewBox%3D%220%200%2035%2035%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20cx%3D%2217.5%22%20cy%3D%2217.5%22%20r%3D%2217.5%22%20fill%3D%22%23F8BAD5%22%2F%3E%3Cpath%20d%3D%22M25.3221%2012.306C25.4192%2012.4028%2025.4961%2012.5177%2025.5486%2012.6443C25.6011%2012.7708%2025.6282%2012.9065%2025.6282%2013.0435C25.6282%2013.1805%2025.6011%2013.3162%2025.5486%2013.4428C25.4961%2013.5693%2025.4192%2013.6843%2025.3221%2013.781L15.9471%2023.156C15.8504%2023.253%2015.7354%2023.33%2015.6089%2023.3825C15.4823%2023.435%2015.3467%2023.4621%2015.2096%2023.4621C15.0726%2023.4621%2014.937%2023.435%2014.8104%2023.3825C14.6839%2023.33%2014.5689%2023.253%2014.4721%2023.156L10.3055%2018.9894C10.1099%2018.7938%2010%2018.5285%2010%2018.2519C10%2017.9752%2010.1099%2017.71%2010.3055%2017.5144C10.5011%2017.3188%2010.7664%2017.2089%2011.043%2017.2089C11.3196%2017.2089%2011.5849%2017.3188%2011.7805%2017.5144L15.2096%2020.9456L23.8471%2012.306C23.9439%2012.209%2024.0589%2012.1321%2024.1854%2012.0795C24.312%2012.027%2024.4476%2012%2024.5846%2012C24.7217%2012%2024.8573%2012.027%2024.9839%2012.0795C25.1104%2012.1321%2025.2254%2012.209%2025.3221%2012.306Z%22%20fill%3D%22black%22%2F%3E%3C%2Fsvg%3E");
+  --trash-blue: url("data:image/svg+xml,%3Csvg%20width%3D%2235%22%20height%3D%2235%22%20viewBox%3D%220%200%2035%2035%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20cx%3D%2217.5%22%20cy%3D%2217.5%22%20r%3D%2217.5%22%20fill%3D%22%235B98F5%22%2F%3E%3Cpath%20d%3D%22M24.5833%209.04167H20.9375L19.8958%208H14.6875L13.6458%209.04167H10V11.125H24.5833M11.0417%2024.6667C11.0417%2025.2192%2011.2612%2025.7491%2011.6519%2026.1398C12.0426%2026.5305%2012.5725%2026.75%2013.125%2026.75H21.4583C22.0109%2026.75%2022.5408%2026.5305%2022.9315%2026.1398C23.3222%2025.7491%2023.5417%2025.2192%2023.5417%2024.6667V12.1667H11.0417V24.6667Z%22%20fill%3D%22black%22%2F%3E%3C%2Fsvg%3E");
+  --trash-pink: url("data:image/svg+xml,%3Csvg%20width%3D%2235%22%20height%3D%2235%22%20viewBox%3D%220%200%2035%2035%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20cx%3D%2217.5%22%20cy%3D%2217.5%22%20r%3D%2217.5%22%20fill%3D%22%23F8BAD5%22%2F%3E%3Cpath%20d%3D%22M24.5833%209.04167H20.9375L19.8958%208H14.6875L13.6458%209.04167H10V11.125H24.5833M11.0417%2024.6667C11.0417%2025.2192%2011.2612%2025.7491%2011.6519%2026.1398C12.0426%2026.5305%2012.5725%2026.75%2013.125%2026.75H21.4583C22.0109%2026.75%2022.5408%2026.5305%2022.9315%2026.1398C23.3222%2025.7491%2023.5417%2025.2192%2023.5417%2024.6667V12.1667H11.0417V24.6667Z%22%20fill%3D%22black%22%2F%3E%3C%2Fsvg%3E");
+
+  /* farver */
+  --hvid: #fff;
+  --pink: #f8bad5;
+  --blue: #5b98f5;
+  --lys-gray: #f0f0f0;
+  --dark-gray: #d9d9d9;
+  --black: #d9d9d9;
 }
 
 * {
@@ -10,51 +22,117 @@
   padding: 0;
   font-family: sans-serif;
 }
+/* head  */
+.head {
+  background-color: var(--hvid);
+  padding: 2rem;
+  place-content: center;
+  border-radius: 35px;
+  margin-bottom: 2rem;
+}
+h1 {
+  text-align: center;
+}
+body {
+  background: linear-gradient(0deg, var(--pink) 0%, var(--blue) 100%);
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: [full-start]1fr [content] minmax(0, 1000px) 1fr [full-end];
+
+  column-gap: 1rem;
+  > * {
+    grid-column: full;
+    /* display: grid;
+    grid-template-columns: subgrid; */
+
+    > * {
+      grid-column: content;
+    }
+  }
+}
+/* container bagrund..  hele skeremn */
+section {
+  /* width: 100%;
+  min-height: 100vh; */
+  /* display: grid;
+  align-items: center;
+  justify-items: center; */
+  /* gap: 5rem; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* display: grid;
+  grid-template-columns: ;
+  align-items: center;
+  justify-items: center; */
+  /* padding: 3rem 6rem; */
+
+  display: grid;
+  grid-template-columns: [full-start]1fr [content] minmax(0, 1000px) 1fr [full-end];
+  /* align-items: center;
+  justify-items: center; */
+  margin: 2rem 0;
+}
+/* to do */
+.todo {
+  width: 100%;
+  max-width: 500px;
+  background-color: var(--lys-gray);
+  padding: 2rem;
+  /* margin: auto; */
+  border-radius: 15px;
+  /* border: 0.2rem solid black; */
+  /* justify-content: start; */
+  min-height: 450px;
+}
+/* done */
+.done {
+  width: 100%;
+  max-width: 500px;
+  background-color: var(--lys-gray);
+  padding: 2rem;
+  /* margin: auto; */
+  border-radius: 15px;
+  /* justify-content: start; */
+  min-height: 450px;
+}
+.list-bg {
+  background-color: var(--hvid);
+  border-radius: 35px;
+  padding: 3rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  justify-items: center;
+}
+/* overskrift */
+.list-head {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
 h2 {
   font-size: xx-large;
 }
 
-.container {
-  background: linear-gradient(0deg, #009dff 0%, #1021a2 100%);
-  width: 100%;
-  min-height: 100vh;
+/* task */
+
+.tasks {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.todo-app {
-  width: 100%;
-  max-width: 500px;
-  background-color: white;
-  padding: 1rem 10px 1rem 1rem;
-  margin: auto;
-  border-radius: 15px;
-  justify-content: start;
-  min-height: 300px;
-
-  ul {
-    padding-top: 10px;
-    position: relative;
-  }
-}
-
-.done {
-  width: 100%;
-  max-width: 500px;
-  background-color: white;
-  padding: 1rem 10px 1rem 1rem;
-  margin: auto;
-  border-radius: 15px;
-  justify-content: start;
-  min-height: 300px;
-
-  ul {
-    padding-top: 10px;
-    position: relative;
-  }
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  /* width: 100%; */
+  /* max-width: 450px; */
+  padding-top: 0.5rem;
+  border-bottom: solid 1px black;
+  /* overflow: auto; */
 }
 
 input {
-  padding: 0.5rem 15px 0.5rem;
+  grid-column: 1/2;
+  padding: 0.5rem;
   border-radius: 10px;
   background-color: lightgray;
   border-style: none;
@@ -62,110 +140,73 @@ input {
 }
 
 button {
-  padding: 0.5rem 15px 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 10px;
-  background-color: orange;
+  background-color: var(--pink);
   border-style: none;
   cursor: pointer;
   font-size: larger;
 }
-
-.tasks {
-  width: 100%;
-  max-width: 450px;
-  padding-top: 10px;
-  overflow: auto;
+button:hover {
+  background-color: var(--blue);
 }
 
-.heading {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 1rem;
-  /* display: flex;
-  flex-direction: row;
-  gap: 10px; */
-}
-svg {
+/* svg {
   height: 30px;
   width: 30px;
-}
+} */
 
-ul li {
+/* list stil og grid */
+
+/* ul li {
   display: grid;
   grid-template-columns: auto auto 1fr;
   font-size: larger;
-  /* padding: 5px 30px; */
   list-style: none;
-  /* position: absolute; */
-}
+} */
 
+/* list stil  */
 li {
-  /* grid-template-columns: auto 1fr; */
-  /* display: grid; */
-  grid-row: 1;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  /* grid-row: 1; */
   gap: 1rem;
   padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin-top: 0.2rem;
   align-items: center;
-  grid-column: -1;
-  display: inline;
+  /* grid-column: -1; */
+  /* text stil */
+  /* text-align: center; */
+  font-size: larger;
+  /* display: inline; */
 }
 
 li:hover {
-  background-color: lightblue;
-  /* padding: 5px 5px 5px;
-  border-radius: 10px;
-  min-width: 20px; */
-}
-.checked {
+  /* background-color: lightblue; */
+  border-radius: 15px;
   text-decoration: line-through;
 }
 
-/* .checked::before {
-  background: var(--chek-fill) 50% 50% / contain no-repeat;
-  content: "";
-  width: 30px;
-  height: 30px;
-  grid-column: auto;
-} */
+/* sympoler på listen */
 
-/* span med trash */
-/* span {
-  grid-column: 2;
-  content: "";
-  height: 30px;
-  width: 30px;
-  background: var(--trash) 50% 50% / contain no-repeat;
-} */
-
-/* chek ik udfyldt */
 li::before {
-  /* display: none; */
   background: var(--chek) 50% 50% / contain no-repeat;
   content: "";
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   grid-column: 1;
   grid-row: 1;
 }
 li.doneLi::before {
-  background: var(--chek-fill) 50% 50% / contain no-repeat;
-}
-/* chek udfylt */
-li::after {
-  /* display: none; */
-  background: var(--trash) 50% 50% / contain no-repeat;
-  content: "";
-  width: 30px;
-  height: 30px;
-  grid-column: 2;
-  grid-row: 1;
+  background: var(--trash-pink) 50% 50% / contain no-repeat;
 }
 
 span {
-  position: absolute;
-  left: 50px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
+  background: var(--trash) 50% 50% / contain no-repeat;
+  width: 30px;
+  place-self: center;
+  height: 30px;
+  grid-column: 2;
+  grid-row: 1;
 }
