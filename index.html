@@ -8,23 +8,28 @@
   </head>
   <body>
     <section class="container">
-      <div class="head"><h1>TO DO LIST</h1></div>
-      <div class="list-bg">
-        <div class="todo">
-          <div class="list-head">
-            <img src="img/list.svg" alt="" />
-            <h2>To do</h2>
-          </div>
-          <div class="tasks">
+      <div class="head">
+        <h1>TO DO LIST</h1>
+      </div>
+      <div class="list-outer">
+        <div class="tasks">
+          <h2>ADD TASK</h2>
+          <div class="inputfelt">
             <input type="text" placeholder="Add your task" />
-            <button>add</button>
+            <button>ADD</button>
+          </div>
+        </div>
+        <div class="list-styl">
+          <div class="list-head">
+            <h3>To do</h3>
+            <img src="img/pen.svg" alt="" />
           </div>
           <ul id="list-container"></ul>
         </div>
-        <div class="done">
+        <div class="list-styl">
           <div class="list-head">
-            <img src="img/list.svg" alt="" />
-            <h2>Done</h2>
+            <h3>Done</h3>
+            <img src="img/pen.svg" alt="" />
           </div>
           <ul id="done-container"></ul>
         </div>
