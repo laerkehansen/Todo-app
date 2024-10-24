@@ -8,6 +8,7 @@ const button = document.querySelector("button");
 const input = document.querySelector("input");
 const container = document.getElementById("list-container");
 const doneContainer = document.getElementById("done-container");
+let li;
 
 button.addEventListener("click", () => {
   //tilføjer eventlistener til min button//
@@ -16,55 +17,44 @@ button.addEventListener("click", () => {
   if (itemText.trim() !== "") {
     const task = todos.push(itemText);
     console.log("todos: ", todos);
-    const li = document.createElement("li"); //skaber nyt li element//
+    li = document.createElement("li"); //skaber nyt li element//
     const textNode = document.createTextNode(itemText); //skaber textNode//
     li.appendChild(textNode); //appender textNode til li elementet//
+    const span = document.createElement("span");
+    // const node = document.createTextNode("prøv");
+    // span.appendChild(node);
+    li.appendChild(span);
     container.appendChild(li); //appender det nye li element til listen (ul)//
-    input.value = ""; //sørger for at input feltet bliver tomt//
+
+    input.value = ""; // Sørger for, at input-feltet bliver tomt
   }
 });
 
+// Tilføj event listener til span, så den sletter li-elementet, når der klikkes på span
+// span.addEventListener("click", function() {
+//   container.removeChild(li); // Fjerner li-elementet fra listen (containeren)
+//   console.log(`Element fjernet: ${itemText}`);
+// });
+
 container.addEventListener("click", (e) => {
-  const li = e.target.closest("li");
-  const clickAfter = window
-    .getComputedStyle(e.target, "::after")
-    .getPropertyValue("background");
-  if (clickAfter) {
-    console.log("after");
+  console.log(e);
+  if (e.target.localName == "span") {
+    todos = todos.filter((todo) => todo !== e.target.parentElement.innerText);
+    container.removeChild(e.target.parentElement);
+    return;
   }
-  // Sørg for, at det er ::before, der blev klikket på
-  const clickedBefore = window
-    .getComputedStyle(e.target, "::before")
-    .getPropertyValue("background");
-  if (clickedBefore) {
-    let task = li.innerText;
-    done.push(task);
-    todos = todos.filter(function (todo) {
-      return todo !== task;
-    });
+  let task = e.target.innerText;
+  done.push(task);
+  todos = todos.filter(function (todo) {
+    return todo !== task;
+  });
+  console.log("Done: ", done);
+  console.log("Todos: ", todos);
 
-    console.log("before: ", clickedBefore);
-    console.log("after: ", clickAfter);
+  const li = document.createElement("li");
+  const textNode = document.createTextNode(task);
+  li.appendChild(textNode);
 
-    const newLi = document.createElement("li");
-    const textNode = document.createTextNode(task);
-    newLi.appendChild(textNode);
-    newLi.classList.add("doneLi");
-    doneContainer.appendChild(newLi);
-    container.removeChild(li);
-  }
-
-  // console.log(e);
-  // let task = e.target.innerText;
-  // done.push(task);
-  // todos = todos.filter(function (todo) {
-  //   return todo !== task;
-  // });
-  // console.log("Done: ", done);
-  // console.log("Todos: ", todos);
-  // const li = document.createElement("li");
-  // const textNode = document.createTextNode(task);
-  // li.appendChild(textNode);
   // Tilføj CSS-klasse "done" for at ændre ::before baggrund
   // li.classList.add("doneLi");
   // doneContainer.appendChild(li);
