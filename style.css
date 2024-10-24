@@ -98,16 +98,16 @@ ul li {
   /* padding: 5px 30px; */
   list-style: none;
   /* position: absolute; */
+  pointer-events: none; /* Sørg for, at selve <li> ikke er klikbart */
 }
 
 li {
-  /* grid-template-columns: auto 1fr; */
-  /* display: grid; */
   grid-row: 1;
   gap: 1rem;
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
   align-items: center;
   grid-column: -1;
+  pointer-events: none; /* Sørg for, at selve <li> ikke er klikbart */
 }
 
 li:hover {
@@ -159,4 +159,9 @@ li::after {
   height: 30px;
   grid-column: 2;
   grid-row: 1;
+}
+
+li::before,
+li::after {
+  pointer-events: auto; /* Sørg for, at ::before og ::after kan modtage klik */
 }

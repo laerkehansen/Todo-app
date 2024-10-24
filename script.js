@@ -25,23 +25,50 @@ button.addEventListener("click", () => {
 });
 
 container.addEventListener("click", (e) => {
-  console.log(e);
-  let task = e.target.innerText;
-  done.push(task);
-  todos = todos.filter(function (todo) {
-    return todo !== task;
-  });
-  console.log("Done: ", done);
-  console.log("Todos: ", todos);
+  const li = e.target.closest("li");
+  const clickAfter = window
+    .getComputedStyle(e.target, "::after")
+    .getPropertyValue("background");
+  if (clickAfter) {
+    console.log("after");
+  }
+  // Sørg for, at det er ::before, der blev klikket på
+  const clickedBefore = window
+    .getComputedStyle(e.target, "::before")
+    .getPropertyValue("background");
+  if (clickedBefore) {
+    let task = li.innerText;
+    done.push(task);
+    todos = todos.filter(function (todo) {
+      return todo !== task;
+    });
 
-  const li = document.createElement("li");
-  const textNode = document.createTextNode(task);
-  li.appendChild(textNode);
+    console.log("before: ", clickedBefore);
+    console.log("after: ", clickAfter);
 
+    const newLi = document.createElement("li");
+    const textNode = document.createTextNode(task);
+    newLi.appendChild(textNode);
+    newLi.classList.add("doneLi");
+    doneContainer.appendChild(newLi);
+    container.removeChild(li);
+  }
+
+  // console.log(e);
+  // let task = e.target.innerText;
+  // done.push(task);
+  // todos = todos.filter(function (todo) {
+  //   return todo !== task;
+  // });
+  // console.log("Done: ", done);
+  // console.log("Todos: ", todos);
+  // const li = document.createElement("li");
+  // const textNode = document.createTextNode(task);
+  // li.appendChild(textNode);
   // Tilføj CSS-klasse "done" for at ændre ::before baggrund
-  li.classList.add("doneLi");
-  doneContainer.appendChild(li);
-  container.removeChild(e.target);
+  // li.classList.add("doneLi");
+  // doneContainer.appendChild(li);
+  // container.removeChild(e.target);
 });
 
 doneContainer.addEventListener("click", (e) => {
